@@ -23,8 +23,14 @@ In your entity's `init` function, use `AnimationImporter` to add aniamtions:
 	EntityHero = ig.Entity.extend({
 		...
 		
-		//add animations
-		AnimationImporter.addAnim({entity: this, animSheet: 'hero_spritesheet', anim:'idle'})
+		init: function(x, y, settings) {
+			...
+		
+			//add animations
+			AnimationImporter.addAnim({entity: this, animSheet: 'hero_spritesheet', anim:'idle'})
+		
+			...
+		}
 		
 		...
 		
