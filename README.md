@@ -5,7 +5,7 @@ Plug-in for *ImpactJS* to import animation data as a module. Allows editors to h
 
 ## Usage
 
-Copy `animationimporter.js` into your `lib/plugins/` directory and require `plugins.animatioonimporter` in entities that need to import animation data.
+Copy `animationimporter.js` into your `lib/plugins/` directory and require `plugins.animationimporter` in entities that need to import animation data.
 
 When extending an entity, specify the animSheet as being imported:
 
