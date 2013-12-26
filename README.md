@@ -1,7 +1,7 @@
 # impact-animation-importer
 
 
-Plug-in for *ImpactJS* to import animation data as a module. Allows editors to have an export format that can be dropped into the game. It doesn't change any ImpactJS prototypes or extend any ImpactJS classes. It simply defines *AnimationImporter* for use in your Entity set-up code.
+Plug-in for *ImpactJS* to import animation data as a module. Allows editors to have an export format that can be dropped into the game. It doesn't change any ImpactJS prototypes or extend any ImpactJS classes. It simply defines *AnimationImporter* for use in your entity set-up code.
 
 ## Usage
 
