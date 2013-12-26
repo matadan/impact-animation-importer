@@ -5,9 +5,11 @@ Plug-in for *ImpactJS* to import animation data as a module. Allows editors to h
 
 ## Usage
 
-Copy `animationimporter.js` into your `lib/plugins/` directory and require `plugins.animationimporter` in entities that need to import animation data.
+Copy `animationimporter.js` into your `lib/game/plugins/` directory and require `plugins.animationimporter` in entities that need to import animation data.
 
-When extending an entity, specify the animSheet as being imported:
+When extending an entity, require the animation file and the `plugins.animationimporter`.
+
+Then specify the animSheet as being imported:
 
 	EntityHero = ig.Entity.extend({
 		...
@@ -36,3 +38,4 @@ In your entity's `init` function, use `AnimationImporter` to add aniamtions:
 		
 	})
 	
+Don't forget to drop your animation files into `lib\game\animations` so that they can be required.
