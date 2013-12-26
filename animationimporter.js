@@ -38,7 +38,7 @@ ig.module('plugins.animationimporter')
 				}
 			},
 
-			// used for animSheet: preoperty in class extension for an entity
+			// used for animSheet: property in class extension for an entity
 			getAnimSheet : function(params) {
 				var sheetName = params.name
 				var folder = params.imageFolder
