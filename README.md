@@ -38,4 +38,4 @@ In your entity's `init` function, use `AnimationImporter` to add aniamtions:
 		
 	})
 	
-Don't forget to drop your animation files into `lib\game\animations` so that they can be required.
+Don't forget to drop your animation files into `lib/game/animations/` so that they can be required.
